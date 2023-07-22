@@ -1,0 +1,74 @@
+* {
+    font-family: cursive;
+}
+
+nav {
+    border: 2px solid black;
+    background-color: rgb(202, 194, 195);
+    /* padding: 12px 12px; */
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    padding: 9px 34px;
+    margin: 6px 16px;
+    cursor: pointer;
+    border: 2px solid green;
+    border-radius: 11px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: azure;
+    font-size: 1.04rem;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+    text-align: center;
+}
+/* .container {
+    background: url(gym5.jpeg) no-repeat center center/cover;
+    margin: -20px auto;
+    max-width: 107%;
+    padding: -9px 14px;
+    height: 54vw;
+} */
+.container{
+    background: url(gym5.jpeg) no-repeat center center/cover;
+    margin: -2px auto;
+    max-width: 138%;
+    padding: 36px 0px;
+    height: 54vw;
+}
+
+
+input,
+textarea {
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn{
+    margin: 18px 514px;
+    padding: 7px 117px;
+    font-size: 1rem;
+    border-radius: 14px;
+}
